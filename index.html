@@ -54,7 +54,7 @@
 
         .ems-footer {
             display: block;
-            background-color: white;
+            background-color: #343a40;
             width: 100%;
             padding: 20px;
         }
@@ -68,6 +68,10 @@
             margin-right: auto;
         }
 
+        .ems-footer-text {
+            color: white;
+        }
+
         .ems-image-col {
             width: 25%;
             height: auto;
@@ -77,6 +81,11 @@
         .ems-hr {
             padding-top: 25px;
             padding-bottom: 25px;
+        }
+
+        .ems-picture {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -122,7 +131,7 @@
             <hr>
         </div>
         <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="jumbotron text-center">
                     <img class="ems-image-center" src="https://img.icons8.com/dotty/80/000000/policeman-male.png">
                     <div class="display-4">SAPD</div>
@@ -134,7 +143,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="jumbotron text-center">
                     <img class="ems-image-center" src="https://img.icons8.com/dotty/80/000000/fireman-female.png">
                     <div class="display-4">SAFD</div>
@@ -146,7 +155,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                 <div class="jumbotron text-center">
                     <img class="ems-image-center" src="https://img.icons8.com/dotty/80/000000/nurse-male.png">
                     <div class="display-4">EMS</div>
@@ -163,8 +172,10 @@
             <hr>
         </div>
         <div class="row">
-            <img src="https://imgur.com/C0Vb8XF.png">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <img class="ems-picture" src="https://imgur.com/C0Vb8XF.png">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                 <ul class="list-group">
                     <li class="list-group-item">Gamemode Role Play Game</li>
                     <li class="list-group-item">Trzy frakcje</li>
@@ -253,7 +264,6 @@
     </div>
     <footer class="ems-footer">
         <div class="col-12 row">
-
             <div class="ems-image-col">
                 <img class="ems-footer-image" src="https://image.flaticon.com/icons/png/512/145/145802.png">
             </div>
@@ -267,7 +277,7 @@
                 <img class="ems-footer-image" src="https://image.flaticon.com/icons/png/512/145/145807.png">
             </div>
         </div>
-        <div class="text-center">
+        <div class="text-center ems-footer-text">
             <br>Źródła obrazków:<br>
             <a href="https://icons8.com/">Emergencies icons by Icons8</a><br>
             <a href="https://www.flaticon.com/">Social media icons by Flaticon</a><br>
